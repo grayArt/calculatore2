@@ -36,8 +36,44 @@ namespace calculatore2
             textView = FindViewById<TextView>(Resource.Id.textView);
             editText = FindViewById<EditText>(Resource.Id.editText);
 
+            total_btn.Click += Total_btn_Click;
+            defferenc_btn.Click += Defferenc_btn_Click;
+            multiplacation_btn.Click += Multiplacation_btn_Click;
+            separation_btn.Click += Separation_btn_Click;
+            equal_btn.Click += Equal_btn_Click;
+            refresh_btn.Click += Refresh_btn_Click;
 
   
+        }
+
+        private void Refresh_btn_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Equal_btn_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Separation_btn_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Multiplacation_btn_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Defferenc_btn_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Total_btn_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }
