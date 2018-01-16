@@ -19,6 +19,7 @@ namespace calculatore2
         private Button refresh_btn;
         private TextView textView;
         private EditText editText;
+        private float result=0;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -58,22 +59,39 @@ namespace calculatore2
 
         private void Separation_btn_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            result /= float.Parse(editText.Text);
         }
 
         private void Multiplacation_btn_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            result *= float.Parse(editText.Text);
         }
 
         private void Defferenc_btn_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            result -= float.Parse(editText.Text);
         }
 
         private void Total_btn_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            result += float.Parse(editText.Text);
+        }
+        private void setVewText(int status)
+        {
+            switch(status)
+            {
+                case 1:
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    break;
+                                
+                
+
+            }
         }
     }
 }
