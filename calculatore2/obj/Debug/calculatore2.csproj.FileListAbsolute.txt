@@ -1,0 +1,15 @@
+F:\xamarin\Project\calculatore2\calculatore2\bin\Debug\calculatore2.dll
+F:\xamarin\Project\calculatore2\calculatore2\bin\Debug\calculatore2.pdb
+F:\xamarin\Project\calculatore2\calculatore2\bin\Debug\calculatore2.calculatore2.apk
+F:\xamarin\Project\calculatore2\calculatore2\bin\Debug\calculatore2.calculatore2-Signed.apk
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\calculatore2.csprojResolveAssemblyReference.cache
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\calculatore2.dll
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\calculatore2.pdb
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\android\bin\calculatore2.calculatore2.apk
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\res\layout\main.xml
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\res\values\strings.xml
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\res\drawable\icon.png
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\R.cs.flag
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\uploadflags.txt
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\calculatore2.dll.mdb
+F:\xamarin\Project\calculatore2\calculatore2\bin\Debug\calculatore2.dll.mdb

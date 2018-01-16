@@ -1,0 +1,4 @@
+calculatore2.MainActivity, calculatore2;md5fe0d00aece605441d10635e317c15208.MainActivity
+calculatore2.MainActivity, calculatore2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fe0d00aece605441d10635e317c15208.MainActivity
+calculatore2.MainActivity;md5fe0d00aece605441d10635e317c15208.MainActivity
+calculatore2.MainActivity;md5fe0d00aece605441d10635e317c15208.MainActivity

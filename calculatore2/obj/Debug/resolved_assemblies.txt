@@ -1,0 +1,9 @@
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\assemblies\calculatore2.dll
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\assemblies\Mono.Android.dll
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\assemblies\mscorlib.dll
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\assemblies\System.Core.dll
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\assemblies\System.dll
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\assemblies\System.Xml.dll
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\assemblies\System.Xml.Linq.dll
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\assemblies\System.Runtime.Serialization.dll
+F:\xamarin\Project\calculatore2\calculatore2\obj\Debug\assemblies\System.ServiceModel.Internals.dll
