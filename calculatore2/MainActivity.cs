@@ -32,6 +32,9 @@ namespace calculatore2
             multiplacation_btn = FindViewById<Button>(Resource.Id.multiplacation_btn);
             separation_btn = FindViewById<Button>(Resource.Id.separation_btn);
             equal_btn = FindViewById<Button>(Resource.Id.equal_btn);
+            refresh_btn = FindViewById<Button>(Resource.Id.refresh_btn);
+            textView = FindViewById<TextView>(Resource.Id.textView);
+            editText = FindViewById<EditText>(Resource.Id.editText);
 
 
   

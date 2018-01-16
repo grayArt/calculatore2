@@ -15,7 +15,7 @@ public final class R {
     }
     public static final class id {
         public static final int defferenc_btn=0x7f05000a;
-        public static final int editText1=0x7f050004;
+        public static final int editText=0x7f050004;
         public static final int equal_btn=0x7f05000d;
         public static final int linearLayout1=0x7f050000;
         public static final int linearLayout2=0x7f050006;
@@ -27,7 +27,7 @@ public final class R {
         public static final int multiplacation_btn=0x7f05000b;
         public static final int refresh_btn=0x7f05000e;
         public static final int separation_btn=0x7f05000c;
-        public static final int textView1=0x7f050002;
+        public static final int textView=0x7f050002;
         public static final int total_btn=0x7f050008;
     }
     public static final class layout {

@@ -64,7 +64,7 @@ namespace calculatore2
 			public const int defferenc_btn = 2131034122;
 			
 			// aapt resource value: 0x7f050004
-			public const int editText1 = 2131034116;
+			public const int editText = 2131034116;
 			
 			// aapt resource value: 0x7f05000d
 			public const int equal_btn = 2131034125;
@@ -100,7 +100,7 @@ namespace calculatore2
 			public const int separation_btn = 2131034124;
 			
 			// aapt resource value: 0x7f050002
-			public const int textView1 = 2131034114;
+			public const int textView = 2131034114;
 			
 			// aapt resource value: 0x7f050008
 			public const int total_btn = 2131034120;
