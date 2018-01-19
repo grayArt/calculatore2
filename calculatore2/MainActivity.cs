@@ -19,14 +19,18 @@ namespace calculatore2
         private Button refresh_btn;
         private TextView textView;
         private EditText editText;
-        private float result=0;
-
+        private float result;
+        private int status;
+        private bool textChange;
+      
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
 
             // Set our view from the "main" layout resource
-       
+            textChange = true;
+            result = 0;
+            status = 0;
             SetContentView(Resource.Layout.Main);
             total_btn = FindViewById<Button>(Resource.Id.total_btn);
             defferenc_btn = FindViewById<Button>(Resource.Id.defferenc_btn);
@@ -43,55 +47,81 @@ namespace calculatore2
             separation_btn.Click += Separation_btn_Click;
             equal_btn.Click += Equal_btn_Click;
             refresh_btn.Click += Refresh_btn_Click;
+            editText.TextChanged += EditText_TextChanged;
 
-  
+
+
+        }
+
+        private void EditText_TextChanged(object sender, Android.Text.TextChangedEventArgs e)
+        {
+            textChange = true;
         }
 
         private void Refresh_btn_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            result = 0;
+            textView.Text = "";
+            editText.Text = "";
         }
 
         private void Equal_btn_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+
+            setVewText();
+            textView.Text = "";
+            editText.Text = result.ToString();
+           // result = 0;
         }
 
         private void Separation_btn_Click(object sender, EventArgs e)
         {
-            result /= float.Parse(editText.Text);
+            status = 4;
+            if(textChange) setVewText();
         }
 
         private void Multiplacation_btn_Click(object sender, EventArgs e)
         {
-            result *= float.Parse(editText.Text);
+            status = 3;
+            if (textChange) setVewText();
         }
 
         private void Defferenc_btn_Click(object sender, EventArgs e)
         {
-            result -= float.Parse(editText.Text);
+            status = 2;
+            if (textChange) setVewText();
         }
 
         private void Total_btn_Click(object sender, EventArgs e)
         {
-            result += float.Parse(editText.Text);
+            status = 1;
+            if (textChange) setVewText();
         }
-        private void setVewText(int status)
+        private void setVewText()
         {
+             string eleman="";
             switch(status)
             {
                 case 1:
+                    result += float.Parse(editText.Text);
+                    eleman = " + ";
                     break;
                 case 2:
+                    result -= float.Parse(editText.Text);
+                    eleman = " - ";
                     break;
                 case 3:
+                    result = result*float.Parse(editText.Text);
+                    eleman = " * ";
                     break;
                 case 4:
+                    result = result/float.Parse(editText.Text);
+                    eleman = " / ";
                     break;
-                                
-                
-
             }
+            textView.Text += editText.Text + eleman;
+            editText.Text = result.ToString();
+            textChange = false;
         }
     }
 }
